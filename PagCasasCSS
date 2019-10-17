@@ -1,0 +1,170 @@
+html{
+    font-size: 62.5% /** Forzar 1 rem =62.5% de 16px=10 px **/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 2.0rem
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+#header-principal{ /* #Para ID y el .Clases*/
+    background-color: white;
+    height: 15rem;
+    width: 100%;
+    border:1px solid red;
+    padding-top: 2rem;
+    display: flex;
+}
+
+    #header-princial div{
+        width: 50%;
+        border:1px solid blue;    
+    }
+
+    #header-principal div{
+        width: 50%;
+        display: flex;
+    }
+
+    #header-principal .logo{
+        margin-left: 4rem;
+    }
+
+    #header-principal .logo{
+        color: #666;
+        font-size: 3rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    #header-principal nav{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        padding-top: 4rem;
+    }
+
+    #header-principal nav a{
+        color: black;
+        font-size: 1.7rem;
+        width: 20%;
+        text-decoration: none;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+
+    #header-principal nav a:hover{
+        color: aqua;
+    }
+
+    main{
+        width: 100%;
+    }
+    .imagen-banner{
+        background-image: url(../../images/casa2.jpg);
+        height: 45rem;
+        background-size: cover;
+    }
+
+    .benefits{
+        width: 90%;
+        margin: 4rem auto;
+        display: flex;
+    }
+
+        .benefits div{
+            padding: 2rem;
+            width: 31%;
+            text-align: center;
+        }
+
+            .benefits div i{
+                font-size: 5rem;
+                color: #666;
+            }
+
+    .suggestions{
+        background-color: black;
+        color: white;
+        padding: 3rem;
+    }
+
+        .suggestions h2{
+        text-align: center;
+        }
+
+        .suggestions p{
+            width: 60%;
+            margin: 0 auto;
+            font-size: 1.8rem;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+
+        .suggestions .contenedor-anuncios{
+            display: flex;
+            padding-top: 5rem;
+            width: 90%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+        .contenedor-anuncios div{
+            width: 32%;
+            background-color: white;
+            min-height: 8rem;
+        }
+
+        .contenedor-anuncios div img{
+            width: 100%;
+            max-height: 15rem;
+        }
+
+        .contenedor-anuncios div h3{
+            margin: 0%;
+            padding: 3rem;
+            letter-spacing: .2rem;
+            color: #333;
+        }
+
+        .contenedor-anuncios div p{
+            color: #333;
+            text-align: justify;
+            margin: 0 auto;
+            width: 80%;
+        }
+
+        .contenedor-anuncios div ul{
+            color: #666;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            margin: 4rem auto;
+            width: 80%;
+            padding: 0;
+        }
+
+        .contenedor-anuncios div ul li{
+            font-size: 1.5rem;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            padding: 2rem;
+        }
+
+        .contenedor-anuncios div ul li:nth-last-of-type{
+            border-top: none;
+        }
