@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://kit.fontawesome.com/e3bd543fa8.js"></script>
+		<link rel="stylesheet" href="assets/CSS/views/index.css">
+	</head>
+<body>
+	<header id="header-principal">
+		<div>
+			<img src="assets/images/Logo.png" height="100px" alt="">
+			<h1>LuxHouse</h1>
+		</div>
+		<div>
+			<nav>
+				<a href="Inicio.html">
+					Inicio
+				</a>
+				<a href="Catalogo.html">
+					Catalago
+				</a>
+				<a href="Nosotros.html">
+					Nosotros
+				</a>
+				<a href="Contacos.html">
+					Contactos
+				</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="imagen-banner"></div>
+		<section class="benefits">
+			<div>
+				<i style="color: red; font-size: 80px;" class="fas fa-money-bill"></i>
+				<h3>Mejores Precios</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ut, officiis expedita. Magnam aut modi ex exercitationem, 
+					corporis aspernatur quaerat repellat deleniti, distinctio 
+					culpa neque unde nobis, dolorum asperiores reiciendis harum?
+				</p>
+			</div>
+			<div>
+				<i style="color: brown; font-size: 80px" class="fab fa-android"></i>
+				<h3>Excelente Calidad</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ut, officiis expedita. Magnam aut modi ex exercitationem, 
+					corporis aspernatur quaerat repellat deleniti, distinctio 
+					culpa neque unde nobis, dolorum asperiores reiciendis harum?
+				</p>
+			</div>
+			<div>
+					<i style="color: blue; font-size: 80px;" class="fab fa-accessible-icon"></i>
+				<h3>Ubicación</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Ut, officiis expedita. Magnam aut modi ex exercitationem, 
+					corporis aspernatur quaerat repellat deleniti, distinctio 
+					culpa neque unde nobis, dolorum asperiores reiciendis harum?
+				</p>
+			</div>
+		</section>
+		<section class="suggestions">
+			<h2>Encuentra tu hogar</h2>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eveniet numquam error asperiores non odio, corrupti qui reiciendis ea nulla praesentium earum quae vel quaerat necessitatibus accusamus laudantium in. Amet?
+			</p>
+		<div class="contenedor-anuncios">
+			<div>
+				<img src="assets/images/casa1.jpg" alt="">
+				<h3>Casa citadina</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste itaque unde consequatur delectus inventore eos fuga animi, laudantium ad corrupti eligendi alias nihil molestiae beatae harum ratione quisquam, deserunt maiores?</p>
+					<ul>
+						<li>5 Habitaciones</li>
+						<li>1 1/2 Baños</li>
+					</ul>
+					<div>
+						<a href="">Ver +</a>
+					</div>		
+			</div>
+			
+			<div>
+				<img src="assets/images/casa2.jpg" alt="">
+				<h3>Casa Club</h3>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error dolores quasi illo molestiae, voluptate sequi. Quaerat modi porro veritatis minima aliquid expedita quo nobis voluptas veniam iure? Eligendi, veritatis sit.</p>
+					<ul>
+						<li>5 Habitaciones</li>
+						<li>1 1/2 Baños</li>
+					</ul>
+					<div>
+						<a href="">Ver +</a>
+					</div>
+			</div>
+
+			<div>
+				<img src="assets/images/casa3.jpg" alt="">
+				<h3>Casa Campo</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione a incidunt inventore unde, quidem labore? Voluptas rerum ea nesciunt alias explicabo delectus, repellat velit eius facilis hic quis accusantium fugiat.</p>
+					<ul>
+						<li>5 Habitaciones</li>
+						<li>1 1/2 Baños</li>
+					</ul>
+					<div>
+						<a href="">Ver +</a>
+					</div>
+			</div>
+		</div>
+		</section>
+	</main>
+	<footer>
+	</footer>
+</body>
+</html>
